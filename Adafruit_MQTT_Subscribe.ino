@@ -74,7 +74,6 @@ void loop() {
   if(! mqtt.ping()) {
     mqtt.disconnect();
   }
-  */
 }
 
 // Function to connect and reconnect as necessary to the MQTT server.
